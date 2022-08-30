@@ -14,6 +14,9 @@ module.exports = ({ env }) => {
         password,
         schema: "public",
       },
+      pool: {
+        min: 0,
+      },
       debug: false,
     },
   };
